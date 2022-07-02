@@ -92,14 +92,27 @@
     gap: var(--gap);
 }
 
+.form-grid legend{
+   margin-bottom: 2rem;
+}
+
+.first-name .last-name {
+    width: 50%;
+}
+
 .form-group {
     min-width: 320px;
-    flex-grow: 1 1 auto;
+    flex-grow: 1 1 1 auto;
 }
 
 .form-group label{
     display: block;
 }
+
+.form-group1{
+    width: 100%;
+}
+
 
 .form-group input, .form-group textarea{
     border: none;
